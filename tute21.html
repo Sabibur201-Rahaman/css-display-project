@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation</title>
+    <style>
+       
+        .navbar{
+            background-color: rgb(186, 164, 164);
+            border-radius: 40px;
+        }
+         .navbar li{ 
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+        } 
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li a{
+            text-decoration: none;
+            padding: 3px 3px;
+            
+            color: white;
+        }
+        .search{
+            float:right;
+            color: white;
+            margin: 26px 75px;;
+        }
+      .navbar input{
+        background-color: beige;
+        border: 2px solid black;
+        width: 129px;
+        border-radius: 14px;
+        padding: 3px 15px;
+      }
+      .navbar li a:hover{
+        background-color: rgba(84, 86, 82, 0.581);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+      <ul>
+        <li><a href="https://dashboard.stripe.com/test/dashboard">Home</a></li>
+        <li><a href="https://main--peppy-medovik-bfb41c.netlify.app/">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">ContactUs</a></li>
+        <div class="search">
+            
+            <input type="text" name="search" id='search' placeholder="search website for">
+        </div>
+      </ul>
+    </nav>
+    </header>
+  </body>
+</html>
